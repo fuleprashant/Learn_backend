@@ -55,3 +55,13 @@
     */
 }
 
+function greet() {
+  console.log("Hello world");
+}
+function greetParentA() {
+  console.log("This is the parent code of A ");
+}
+function greetParentB() {
+  console.log("This is the parent code of B");
+}
+module.exports = { greet, greetParentA, greetParentB };
